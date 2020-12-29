@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../src/assets/fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../src/assets/fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../src/assets/fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('../src/assets/fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../src/assets/fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../src/assets/fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('../src/assets/fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../src/assets/fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../src/assets/fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../src/assets/fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksand';
+    src: url('../src/assets/fonts/quicksand-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../src/assets/fonts/quicksand-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+header.foe-header-container.app-header.navbar:before {
+    content: "";
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    background: #fafafa;
+    transform: rotate(-2deg) translate(-2px, -24px);
+    z-index: -1;
+}
+.foe-py-2{
+    padding-top: 3em;
+}
+.foe-nav-right li {
+    font-family: 'raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #444444;
+    text-shadow: 0px 0px 5px #E6E6E6;
+}
+.foe-nav-right li .active-link{
+    font-weight: bold;
+}
+.foe-nav-right li.foe-start-btn.nav-item {
+    background: #BCBCBC;
+    border-radius: 2px;
+    height: 43px;
+    padding: 0px 25px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.foe-nav-right li.foe-login-btn.nav-item {
+    background: #FFFFFF;
+    border-radius: 2px;
+    height: 43px;
+    padding: 0px 40px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.foe-footer-container.app-footer{
+    background: #444444;
+    color: #F2F2F2;
+}
+.foe-footer-box{
+    width: 100%;
+}
+.footer-blocks li.list-group-item {
+    background-color: transparent;
+    border: none;
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #F2F2F2;
+    mix-blend-mode: normal;
+    opacity: 0.55;
+    padding: 3px 0px;
+}
+.footer_logo{
+    text-align: center;
+}
+.footer-blocks .list-group-item-heading {
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F2F2F2;
+    text-transform: capitalize;
+}
+.foe-row-border.row:before {
+    content: "";
+    position: absolute;
+    width: 86%;
+    height: 0.5px;
+    background: transparent;
+    top: 0;
+    margin: auto;
+    left: 1em;
+    right: auto;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+.p-13{
+    font-size: 13px !important;
+}
+.foe-row-border.row {
+    /* border-top: 1px solid #dedede; */
+    margin-top: 15px;
+    padding-top: 15px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.foe-banner-box{
+    background: url(../src/assets/img/aboutus-banner.jpg);
+    min-height: 788px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.main .foe-no-padd.container-fluid{
+padding-left: 0px;
+padding-right: 0px;
+}
+button.foe-mail-btn.btn.btn-primary {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    font-family: 'raleway';
+    font-size: 13px;
+    line-height: 15px;
+    color: #333333;
+    min-width: 225px;
+    min-height: 47px;
+    border: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+button.foe-sub-btn.btn.btn-secondary {
+    background: #2B6A6C;
+    border-radius: 50px;
+    border: none;
+    box-shadow: none;
+    min-width: 110px;
+    min-height: 47px;
+    font-family: 'raleway';
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+p.foe-footer-text {
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 100%;
+    color: #F2F2F2;
+    text-align: center;
+    padding-top: 15px;
+}
+.foe-about-block {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    min-height: 788px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.about-block-1{
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.3);
+}
+img.about-circle {
+    max-width: 456px;
+}
+.foe-about-block .card{
+    border: none;
+}
+.foe-card-subtitle.card-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #444444;
+}
+.foe-card-title.card-title {
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #444444;
+}
+.foe-card-body.card-text {
+    font-family: 'raleway';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #2D3032;
+    text-align: justify;
+}
+.foe-green-a.card-link {
+    background: #2B6A6C;
+    box-shadow: 0px 5px 15px rgba(68, 68, 68, 0.24);
+    border-radius: 2px;
+    width: 130px;
+    height: 43px;
+    display: block;
+    float: left;
+    font-family: 'quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    /* display: flex; */
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 12px;
+}
+a.foe-read-a.card-link {
+    background: #FFFFFF;
+    border: 1px solid rgba(68, 68, 68, 0.3);
+    box-sizing: border-box;
+    min-width: 130px;
+    max-width: 130px;
+    float: left;
+    min-height: 43px;
+    text-align: center;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+    padding-left: 30px;
+}
+.about-block-2, .about-block-2 .foe-about-block{
+    background-color: #F2F2F2;
+}
+.foe-service-header{
+    text-align: center;
+}
+.foe-service-left img.foe-service-img.card-img, .foe-service-center img.foe-service-img.card-img  {
+    width: 96px;
+}
+.foe-service-right img.foe-service-img.card-img{
+width: 158px;
+}
+.foe-img-block {
+    min-height: 229px;
+}
+.foe-card.card{
+    text-align: center;
+    background: #f2f2f2;
+}
+.foe-service-left img.foe-service-img.card-img, .foe-service-right img.foe-service-img.card-img{
+padding-top: 3em;
+}
+.foe-card .foe-card-title.card-title {
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #2D3032;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foe-white-a.card-link {
+    min-width: 185px;
+    min-height: 47px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 12px rgba(144, 168, 190, 0.33);
+    border-radius: 50px;
+    max-width: 185px;
+    margin: auto;
+    display: block;
+}
+a.foe-white-a.card-link span{
+    font-family: 'raleway';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.16em;
+text-transform: uppercase;
+color: #000000;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17px;
+}
+.foe-card .foe-card-body.card-text {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #2D3032;
+    max-width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+.foe-service-header .foe-card-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #444444;
+}
+.foe-service-header .foe-card-title.card-title{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.foe-banner-boxx{
+    min-height: 788px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+@media only screen and (min-width: 992px) {
+.header-fixed header.foe-header-container.app-header {
+    min-height: 167px;
+    background: transparent;
+    flex-direction: column;
+    border-bottom: none;
+}
+.header-fixed .app-body.foe-body{
+    margin-top: 120px;
+}
+.foe-header-container.app-header .foe-nav-right li {
+    margin: 0px 30px;
+}
+}

@@ -1,0 +1,16 @@
+.student-overview.partners-overview .foe-card-subtitle, .student-overview.partners-overview .foe-card .foe-card-title.card-title, .student-overview.partners-overview .foe-card .foe-card-body.card-text, .student-overview.partners-overview .foe-white-a.card-link{
+width: 85%;
+max-width: 85%;
+}
+.partners-overview .foe-img-block img {
+    bottom: 0;
+}
+.partners-overview .foe-card-subtitle {
+    padding-top: 70px;
+}
+@media only screen and (min-width: 992px)
+{
+.student-overview.partners-overview .foe-card.card {
+    padding-top: 6em;
+}
+}

@@ -1,0 +1,8 @@
+{
+  "baseurl": "https://formeeadmin.bicsglobal.com",
+  "agent_url": "https://formeeagents.bicsglobal.com/#/login",
+  "student_url": "https://formeestudent.bicsglobal.com",
+  "university_url": "https://formeeuniversity.bicsglobal.com/#/login",
+  "baseurl_file":"https://formeeadmin.bicsglobal.com/",
+  "own_url":"https://formee.bicsglobal.com"
+}

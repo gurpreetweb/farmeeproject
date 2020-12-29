@@ -1,0 +1,6 @@
+{
+  "name": "Loginstudent",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Loginstudent.js"
+}

@@ -1,0 +1,7 @@
+.about-us-banner{
+    background: url('../../../assets/img/about-us-banner.jpg');
+    min-height: 700px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin-top: -30px;
+}

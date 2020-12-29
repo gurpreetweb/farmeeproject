@@ -1,0 +1,241 @@
+// Styles
+// CoreUI Icons Set
+@import "~@coreui/icons/css/coreui-icons.css";
+// Import Flag Icons Set
+@import "~flag-icon-css/css/flag-icon.min.css";
+// Import Font Awesome Icons Set
+@import "~font-awesome/css/font-awesome.min.css";
+// Import Simple Line Icons Set
+@import "~simple-line-icons/css/simple-line-icons.css";
+// Import Main styles for this application
+@import "./scss/style.scss";
+
+/* vijaykanth dropdown code*/
+.select-bbox .select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+.select-bbox .select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 220px;
+  height: 40px;
+}
+
+.select-bbox .select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #c0392b;
+  padding: 8px 15px;
+  transition: all 0.2s ease-in;
+  background-color: #fff !important;
+  min-height: 34px;
+  background-size: 16px !important;
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  color: #4f4f4f;
+  mix-blend-mode: normal;
+  height: 47px;
+  min-width: 185px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 1px 1px 12px rgba(144, 168, 190, 0.33);
+  border-radius: 50px;
+  z-index: 1000;
+}
+.select-bbox .select-styled:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+.select-bbox .select-styled:hover {
+  background-color: #b83729;
+}
+.select-bbox .select-styled:active,
+.select-bbox .select-styled.active {
+  background-color: #ab3326;
+}
+.select-bbox .select-styled:active:after,
+.select-bbox .select-styled.active:after {
+  top: 9px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.select-bbox .select-options {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 24px;
+  max-height: 200px;
+  overflow: hidden;
+  padding-top: 45px;
+}
+.select-bbox .select-options li {
+  margin: 0;
+  padding: 12px 0;
+  text-indent: 15px;
+  border-top: 1px solid #f2f2f2;
+  color: #333;
+  font-size: 12px;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+.select-bbox .select-options li:hover {
+  color: #c0392b;
+  background: #fff;
+}
+.select-bbox .select-options li[rel="hide"] {
+  display: none;
+}
+.select-bbox .select-options li:nth-child(1),
+.select-bbox .select-options li:nth-child(2) {
+  border-top: none;
+}
+
+.select-bbox .select-options .slimScrollDiv {
+  margin-right: 20px;
+}
+.select-bbox .select-options2 {
+  padding: 0px;
+}
+
+/* vijaykanth dropdown bbox1 code*/
+.select-bbox1 .select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+.select-bbox1 .select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 220px;
+  height: 40px;
+}
+
+.select-bbox1 .select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #c0392b;
+  padding: 8px 15px;
+  transition: all 0.2s ease-in;
+  background-color: #fff !important;
+  min-height: 34px;
+  background-size: 16px !important;
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  color: #4f4f4f;
+  mix-blend-mode: normal;
+  height: 47px;
+  min-width: 185px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 1px 1px 12px rgba(144, 168, 190, 0.33);
+  border-radius: 50px;
+  z-index: 1000;
+}
+.select-bbox1 .select-styled:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+.select-bbox1 .select-styled:hover {
+  background-color: #b83729;
+}
+.select-bbox1 .select-styled:active,
+.select-bbox1 .select-styled.active {
+  background-color: #ab3326;
+}
+.select-bbox1 .select-styled:active:after,
+.select-bbox1 .select-styled.active:after {
+  top: 9px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.select-bbox1 .select-options {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 24px;
+  max-height: 200px;
+  overflow: hidden;
+  padding-top: 45px;
+}
+.select-bbox1 .select-options li {
+  margin: 0;
+  padding: 12px 0;
+  text-indent: 15px;
+  border-top: 1px solid #f2f2f2;
+  color: #333;
+  font-size: 12px;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+.select-bbox1 .select-options li:hover {
+  color: #c0392b;
+  background: #fff;
+}
+.select-bbox1 .select-options li[rel="hide"] {
+  display: none;
+}
+.select-bbox1 .select-options li:nth-child(1),
+.select-bbox1 .select-options li:nth-child(2) {
+  border-top: none;
+}
+
+.select-bbox1 .select-options .slimScrollDiv {
+  margin-right: 20px;
+}
+.select-bbox1 .select-options2 {
+  padding: 0px;
+}

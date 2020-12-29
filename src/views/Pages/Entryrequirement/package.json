@@ -1,0 +1,6 @@
+{
+  "name": "entryrequirement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Entryrequirement.js"
+}

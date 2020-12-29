@@ -1,0 +1,7 @@
+.contact_page_wrapper .contact_page_banner{
+  background: url('./../../assets/img/contact-us-banner.jpg');
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  margin-top: -5px;
+  padding: 8% 0px;
+}

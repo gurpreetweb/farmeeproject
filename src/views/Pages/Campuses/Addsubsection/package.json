@@ -1,0 +1,6 @@
+{
+  "name": "addsubsection",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Addsubsection.js"
+}

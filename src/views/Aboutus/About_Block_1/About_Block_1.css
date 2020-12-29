@@ -1,0 +1,8 @@
+.about-student-ed-section{
+    background: url('../../../assets/img/about-sted-banner.png');
+    min-height: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin-top: 0px;
+    background-position: center;
+}

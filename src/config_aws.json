@@ -1,0 +1,8 @@
+{
+  "baseurl": "http://admin.formeeexpress.com",
+  "agent_url": "http://agents.formeeexpress.com/#/login",
+  "student_url": "http://student.formeeexpress.com",
+  "university_url": "http://university.formeeexpress.com/#/login",
+  "baseurl_file":"http://admin.formeeexpress.com/",
+  "own_url":"http://formeeexpress.com"
+}
